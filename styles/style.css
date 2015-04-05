@@ -201,7 +201,7 @@ margin-bottom:0px!important;
 	}
 
 .div100 {
-	width:97.5%;
+	width:95.5%;
 	display:block;
 	float:left;
 	}
@@ -525,7 +525,13 @@ margin-bottom:0px!important;
 	margin-right:10px;
 	font-family:Calibri, Arial!important;
 	}
-
+.org-reg-wra-block span textarea {
+	padding:6px 5px;
+	border:1px solid #Ccc;
+	margin-right:10px;
+	font-family:Calibri, Arial!important;
+	outline:none;
+	}
 
 .org-reg-wra-block span select {
 	padding:7px 5px;
@@ -2151,11 +2157,12 @@ screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	}
 	
 .org-reg-wra-block {
-	padding:5px 20px 20px; 
+	
 	margin:10px 0 20px 0; 
-	background-color:#F9F9F9; 
-	border:1px solid #DFDFDF; 
-	display:block;
+	/*background-color:#F9F9F9; 
+	border:1px solid #DFDFDF;
+		*/padding:0px; 
+display:block;
 	}
 	
 .org-reg-wra-block p {
@@ -2166,7 +2173,7 @@ screen and (min-device-width : 320px) and (max-device-width : 480px) {
 	
 .org-reg-wra-block label {
 	line-height:27px; 
-	width:200px; 
+	/*width:200px; */
 	float:left;
 	display:block;
 	}
@@ -2436,3 +2443,8 @@ footer {
 
 
 .error{ border:1px solid #c00!important; background-color:#FFECEC}
+.loginbox table tr td{ vertical-align:middle!important;}
+
+
+.sepline{ width:100%; margin:25px auto 10px; display:block; height:2px; background-color: #f26329;}
+.imgw18{ height:18px; width:18px; }
