@@ -73,11 +73,11 @@
  
  
   <div id="div1">
-    <h2 class=" color-orange"><i class="fa fa-user"></i> Personal details</h2>
+    <h2 class=" color-orange"><i class="fa fa-user"></i> Personal details<span class="steps">Step 1 of 6</span></h2>
     <div class="org-reg-wra-block">
 <p class="div100">
   <label>Position applied for</label>
- <span><input type="text" class="width90"></span>
+ <span><input type="text" class="width70"></span>
 </p>
 
 <p class="width40">
@@ -106,10 +106,10 @@
 <h3>Current Address</h3>
 <p>
   <label>Address line 1</label> 
-  <span><input name="" type="text" class="width90"></span></p>
+  <span><input name="" type="text" class="div100"></span></p>
   <p>
   <label>Address line 2</label> 
-  <span><input name="" type="text" class="width90"></span></p>
+  <span><input name="" type="text" class="div100"></span></p>
   <p class="width60">
   <label>City</label>
  <span><input name="" type="text" class="width90"></span>
@@ -127,11 +127,11 @@
  <span><input name="" type="text" class="width90"></span>
 </p>
 <p class="clearclass">
-  <label>Email</label> <span><input name="" type="text" class="width90 error"></span>
+  <label>Email</label> <span><input name="" type="text" class="width70 error"></span>
 </p>
 <h3 class="clearclass">Address History</h3>
-<p class="width90">Please state ALL previous addresses where you have lived for the past <strong>five years</strong>, continue on a separate sheet if necessary:</p>
-<p class="width90">
+<p class="div100">Please state ALL previous addresses where you have lived for the past <strong>five years</strong>, continue on a separate sheet if necessary:</p>
+<p class="clearclass">
   <label><strong>Previous Address 1</strong></label>
  <span><input name="" type="text" class="div100"></span>
 </p>
@@ -148,7 +148,7 @@
  <span><input name="" type="date" class="width90"></span>
 </p>
 
-<p class="width90">
+<p class="clearclass">
   <label><strong>Previous Address 2</strong></label>
  <span><input name="" type="text" class="div100"></span>
 </p>
@@ -165,7 +165,7 @@
  <span><input name="" type="date" class="width90"></span>
 </p>
 
-<p class="width90">
+<p class="clearclass">
   <label><strong>Previous Address 3</strong></label>
  <span><input name="" type="text" class="div100"></span>
 </p>
@@ -208,41 +208,41 @@
 </p>
 <Br style="clear:both">
 <p>
-  <label>Details of endorsments</label> <span><input name="" type="text" class="width90"></span>
+  <label>Details of endorsments</label> <span><input name="" type="text" class="div100"></span>
 </p>
 <Br style="clear:both">
 <p>
   <label>Are there any restrictions on you taking up an employment in the UK? (if yes please proivde details)</label> 
  </p><p>
   <span><input name="res" type="radio" value="Yes">Yes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input name="res" type="radio" value="No" checked>No</span>
-  </p><p><label>&nbsp;</label> <span><input name="" type="text" class="width90"></span>
+  </p><p><label>&nbsp;</label> <span><input name="" type="text" class="div100"></span>
 </p>
 <Br class="clearclass">
 </div>
   </div>
 <div id="div2">
-    <h2 class=" color-orange"><i class="fa fa-graduation-cap "></i> Education history</h2>
+    <h2 class=" color-orange"><i class="fa fa-graduation-cap "></i> Education history<span class="steps">Step 2 of 6</span></h2>
     <div class="org-reg-wra-block">
     <h3>School(s) information</h3>
     <p>
-      <label>Please enter school name, qualification and year in one line.</label>
+      <label>Please enter details of your school(s)</label>
  <span>
-  <textarea rows="7" class="div100" placeholder="School name, 8th standard, 2002"></textarea>
+  <textarea rows="7" class="div100" placeholder="i.e. School name, 8th standard, 2002"></textarea>
   </span>
 </p>
     <h3>College(s) information</h3>
        <p>
-      <label>Please enter college name, qualification and year in one line.</label>
+      <label>Please enter details of your college(s)</label>
  <span>
-  <textarea rows="7" class="div100" placeholder="College name, Bachelor in Business Administration, 2008"></textarea>
+  <textarea rows="7" class="div100" placeholder="i.e. College name, Bachelor in Business Administration, 2008"></textarea>
   </span>
 </p>
 
     <h3>University information</h3>
        <p>
-      <label>Please enter university name, qualification and year in one line.</label>
+      <label>Please enter details of your university</label>
  <span>
-  <textarea rows="7" class="div100" placeholder="University name, Masters in English Literature, 2011"></textarea>
+  <textarea rows="7" class="div100" placeholder="i.e. University name, Masters in English Literature, 2011"></textarea>
   </span>
 </p>
 
@@ -260,13 +260,14 @@
  <span>
   <textarea rows="7" class="div100" placeholder="..."></textarea>
   </span>
+  <Br class="clearclass">
 </p>
 
  
 </div>
   </div>
   <div id="div3">
-    <h2 class=" color-orange"><i class="fa fa-briefcase"></i> Employment information</h2>
+    <h2 class=" color-orange"><i class="fa fa-briefcase"></i> Employment information<span class="steps">Step 3 of 6</span></h2>
     <div class="org-reg-wra-block">
     <h3>Other employment</h3>
   <p>
@@ -279,17 +280,23 @@
  <p>
   <label>Your application can not be submitted without completing this section</label></p>
   <h5><strong>Employer information</strong></h5>
- <p class="width40">
-      <label>Employer name</label>
+ <p class="width80">
+      <label>Employer full name</label>
       <span><input name="" type="text" class="width90"></span>
 </p>
-<p class="width60">
+<p class="width80">
   <label>Employer address</label>
   <span><input name="" type="text" class="width90"></span>
 </p>
-    <p>
-  <label>Job title and duties</label>
+<p class="width20">
+  <label>Post code</label>
   <span><input name="" type="text" class="width90"></span>
+</p>
+    <p class="clearclass">
+  <label>Job title and duties</label>
+  <span>
+  <textarea name="" rows="6" class="div100"></textarea>
+  </span>
 </p>
  <p class="width30">
       <label>Employer phone number</label>
@@ -312,12 +319,12 @@
 <br class="clearclass">
 <p>
   <label>Reason for leaving</label>
- <span><input name="" type="text" class="width90"></span>
+ <span><input name="" type="text" class="div100"></span>
 </p>
  
     <p>
   <label>&nbsp;</label>
-  <span><input type="submit" class="ph-button-sml ph-btn-mustard float-right" value="Add employer information"></span></p>
+  <span><input type="submit" class="ph-button-sml ph-btn-mustard float-right" value="Add information"></span></p>
   <Br class="clearclass">
     <p>
   <table class="rwd-table" width="100%">
@@ -347,11 +354,11 @@
   <label>Notice required in current post</label>
  <span><input name="" type="text" class="width30"></span>
 </p>
-
+<br class="clearclass">
 </div>
   </div>
   <div id="div4">
-    <h2 class=" color-orange"><i class="fa fa-futbol-o"></i> Other information</h2>
+    <h2 class=" color-orange"><i class="fa fa-futbol-o"></i> Other information<span class="steps">Step 4 of 6</span></h2>
     <div class="org-reg-wra-block">
     <h3>References</h3>
 <p>Give the contact information of at least one person, who has knows you well for at least five years, and is still in contact with you and who will provide a written reference. This person should have known you for at least five years and NOT be a previous employer, relative or resident at the same address.</p>
@@ -362,7 +369,7 @@
 </p>
 <p class="width60">
   <label>Address</label>
-  <span><input name="" type="text" class="width90"></span>
+  <span><input name="" type="text" class="div100"></span>
 </p>
 
  <p class="width40">
@@ -371,7 +378,7 @@
 </p>
 <p class="width60">
   <label>Email address</label>
-  <span><input name="" type="text" class="width90"></span>
+  <span><input name="" type="text" class="div100"></span>
 </p>
 
 <h5><strong>2- Reference</strong></h5>
@@ -381,7 +388,7 @@
 </p>
 <p class="width60">
   <label>Address</label>
-  <span><input name="" type="text" class="width90"></span>
+  <span><input name="" type="text" class="div100"></span>
 </p>
 
  <p class="width40">
@@ -390,7 +397,7 @@
 </p>
 <p class="width60">
   <label>Email address</label>
-  <span><input name="" type="text" class="width90"></span>
+  <span><input name="" type="text" class="div100"></span>
 </p>
 <br class="clearclass">
 <div class="sepline"></div>
@@ -413,15 +420,15 @@
   <p>
   <label>Please detail here your reasons for this application, your main achievments to date and the strengths you would bring to this post. Specifically, please detail how your knowledge, skills and experiences meet the requirements of this role (as summarised in the person specification).</label>
   <span>
-  <textarea name="" rows="15" class="div100"></textarea>
+  <textarea name="" rows="10" class="div100"></textarea>
   </span></p>
-  
-</div>
+  <Br class="clearclass">
+  </div>
   </div>
   
   
   <div id="div5">
-   <h2 class=" color-orange"><i class="fa fa-thumbs-o-up"></i> Terms &amp; Conditions</h2>
+   <h2 class=" color-orange"><i class="fa fa-thumbs-o-up"></i> Terms &amp; Conditions<span class="steps">Step 5 of 6</span></h2>
   <div class="termsdiv">
 <p><strong>1. Where can I put my newly created Web pages?</strong></p>
 <p>Donec mauris tortor, pellentesque sit amet pharetra non, dignissim eu est. Vestibulum sit amet tempus purus. Curabitur fringilla, metus ac rhoncus ultrices, mauris enim consectetur quam, a pellentesque libero sapien eget dui. Curabitur libero sem, bibendum sed bibendum vitae, auctor ut nisl. Maecenas ut urna massa. Pellentesque convallis, lorem at imperdiet ultricies, purus lectus elementum orci, a tincidunt massa quam sit amet lectus. Donec a</p>
@@ -443,12 +450,15 @@
   </div>
 
   
-  <div id="div6">
+  <div id="div6"> 
+   <h2 class=" color-orange"><i class="fa fa-thumbs-o-up"></i> Successful<span class="steps">Step 6 of 6</span></h2>
+ 
+  <div class="org-reg-wra-block">
   <span class="completed-icon"></span>
-  <h3 class="center-text color-red">You have successfuly finished online application click &quot;
-    save&quot; button below to submit your application.</h3>
-    <div style="clear:both; text-align:center; width:100%; display:block; padding:25px 0px;"><a href="index.html" class="ph-button ph-btn-green "><i class="fa fa-floppy-o"></i> Save</a></div>
+  <h3 class="center-text color-red">You have successfuly finished your online application, click &quot;next&quot; button below to submit your application.</h3>
+
     <h2 class="center-text">Please click on &quot;Upload files&quot; tab from top and upload required documents.</h2>
+    </div>
   </div>
   
   
